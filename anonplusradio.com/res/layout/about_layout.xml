@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<ScrollView
+    android:id="@+id/ScrlView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >    
+
+    <TextView
+        android:id="@+id/aboutText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="Do Something Selfless Today For Someone You Love and For Someone You Don't\n
+http://www.wallselfies.com\n
+
+Life is Knowledge, Wisdom, and Understanding\n
+"
+        
+        android:textColor="#ff0000"
+        android:textSize="16dp" android:autoLink="web"/>
+    <TextView
+        android:id="@+id/ascii"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutText"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="
+MMMMMMZ............................,,NMMM.O,............................MMMMMMMM\n
+MMMMMMZ.........................,MZ .7+?Z..MM...........................MMMMMMMM\n
+MMMMMMZ.................... ..,MMMI.. MM....MMM.........................MMMMMMMM\n
+MMMMMMZ.................NMMMMMMMMM...M=+N...MMMMMMMM,. .................MMMMMMMM\n
+MMMMMMZ................MMMMMMMMMMM....MM....MMMMMMMMMMM,................MMMMMMMM\n
+MMMMMMZ................MMMMMMMMMMM....MM....MMMMMMMMMMMM................MMMMMMMM\n
+MMMMMMZ...............7MMMMMMMMMMM....MM~..?MMMMMMMMMMMM................MMMMMMMM\n
+MMMMMMZ...............MMMMMMMMMMMM=..,MM8..MMMMMMMMMMMMM................MMMMMMMM\n
+MMMMMMZ...............MMMMMMMMMMMMM..=MMM.:MMMMMMMMMMMMM+...............MMMMMMMM\n
+MMMMMMZ...............MMMMMMMMMMMMMM.?MMM.MMMMMMMMMMMMMM?...............MMMMMMMM\n
+MMMMMMZ..............MMMMMMMMMMMMMMMM7MMNMMMMMMMMMMMMMMMN...............MMMMMMMM\n
+MMMMMMZ..............MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM...............MMMMMMMM\n
+MMMMMMZ..............MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM...............MMMMMMMM\n
+MMMMMMZ.............~MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM...............MMMMMMMM\n
+MMMMMMZ.............ZMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM...............MMMMMMMM\n
+MMMMMMZ.............MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM~..............MMMMMMMM\n
+MMMMMMZ.............MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN..............MMMMMMMM\n
+MMMMMMZ.............MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM..............MMMMMMMM\n
+MMMMMMZ..............MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMO..............MMMMMMMM\n
+MMMMMMZ...............MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMD...............MMMMMMMM\n
+MMMMMMZ.................MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMI.................MMMMMMMM\n
+MMMMMMZ...................MMMMMMMMMMMMMMMMMMMMMMMMMM....................MMMMMMMM\n
+MMMMMMZ...................MMMMMMMMMMMMMMMMMMMMMMMMM.....................MMMMMMMM\n
+MMMMMMZ...................MMMMMMMMMMMMMMMMMMMMMMMMM.....................MMMMMMMM\n
+MMMMMMZ..................~MMMMMMMMMMMMMMMMMMMMMMMMMM................ ...MMMMMMMM\n
+MMMMMMZ..................MMMMMMMMMMMMMMMMMMMMMMMMMMM....................MMMMMMMM\n
+MMMMMMZ..................MMMMMMMMMMMMMMMMMMMMMMMMMMM....................MMMMMMMM\n
+MMMMMMZ..................MMMMMMMMMMMMMMMMMMMMMMMMMMM....................MMMMMMMM\n
+MMMMMMZ..................MMMMMMMMMMMMMMMMMMMMMMMMMMM....................MMMMMMMM\n
+MMMMMMZ..................?MMMMMMMMMMMMMMMMMMMMMMMMM.....................MMMMMMMM\n
+MMMMMMZ...................$MMMMMMMMMMMMMMMMMMMMMMM......................MMMMMMMM\n
+MMMMMMZ...................=MMMMMMMMMMMMMMMMMMMMMM?......................MMMMMMMM\n
+MMMMMMZ....................MMM  we are l3g10n  MM.......................MMMMMMMM\n
+MMMMMMZ....................MMMMMMMMMMMMMMMMMMMMMM.......................MMMMMMMM\n
+MMMMMMZ....................MMMMMMMMMMMMMMMMMMMMMM.......................MMMMMMMM\n
+"
+        
+        android:textColor="#ff0000"
+        android:textSize="5dp" android:autoLink="web" android:typeface="monospace"
+        />
+    <TextView 
+        android:layout_below="@+id/ascii"
+        android:textColor="#ff0000"
+        android:textSize="14dp"
+        android:text="Radio stream for Android by:\n
+        Marko Majdenić
+        "
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"/>
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

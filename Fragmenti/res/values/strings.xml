@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Fragmenti</string>
+    <string name="ime">ime</string>
+    <string name="prezime">prezime</string>
+    <string name="dodaj">dodaj</string>
+    <string name="dalje">dalje</string>
+    <string name="loading">Loading..</string>
+
+</resources>
